@@ -1,220 +1,35 @@
-@-ms-viewport {
-    width: device-width;
+body {
+  background: url("http://i1172.photobucket.com/albums/r576/SW1992/Random%20Film%20Quote%20Machine/Cinema%20Screen_zps7etz9kje.jpg") no-repeat center center; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ font-family: sans-serif;
 }
-@media (max-width: 610px) { 
-  /* media queries for adjusting content layout */
-  section {
-    margin-top: -0.5em;
-  }
-  footer {
-    margin-top: 2em;
-  }
-} 
-@media (max-width: 546px) {
-  section {
-    margin-top: -1em;
-  }
-} 
-@media (max-width: 514px) {
-  section {
-    margin-top: -2em;
-  }
- .buttons {
-   margin: 0 auto;
-   position: relative;
-   bottom: -2em; 
-  }
-  /* stack buttons on smaller screens */
- #newquote {
-    display: inline-block;
-    postion: relative;
-    width: 7.65em;
-    left: -4em; 
-  }
-  a#tweet {
-    display: inline-block;
-    width: 7.65em;
-    margin-bottom: -5em;
-    left: 3.9em;
-  } 
-}
-@media (max-width: 450px) {
-  section {
-    margin-top: -3.5em;
-  }
-  header p {
-    margin-top: -0.5em;
-  }
-}
-@media (max-width: 418px) {
-  section {
-    margin-top: -4em;
-  }
-} 
-  /* temp fix for problem with buttons unstacking at lower widths */
-@media (max-width: 260px) {
- .buttons {
-    margin: 0 auto;
-    position: relative;
-    bottom: -2em; 
-  }
-#newquote {
-    display: inline-block;
-    postion: relative;
-    width: 7.65em;
-    left: 0em;
-  }
-  a#tweet {
-    display: inline-block;
-    width: 7.65em;
-    margin-bottom: -8em;
-    left: 0em;
-  } 
-} 
-@media (max-width: 143px) {
- .buttons {
-    margin: 0 auto;
-    position: relative;
-    bottom: -2em; 
-  }
-#newquote {
-    display: inline-block;
-    postion: relative;
-    width: 7.65em;
-    left: -0.2em;
-  }
-  a#tweet {
-    display: inline-block;
-    width: 7.65em;
-    margin-bottom: -8em;
-    left: -0.2em;
-  } 
-} 
-@media (max-width: 135px) {
- .buttons {
-    margin: 0 auto;
-    position: relative;
-    bottom: -2em; 
-  }
-#newquote {
-    display: inline-block;
-    postion: relative;
-    width: 7.65em;
-    left: -0.4em;
-  }
-  a#tweet {
-    display: inline-block;
-    width: 7.65em;
-    margin-bottom: -8em;
-    left: -0.4em;
-  } 
-} 
-@media (max-width: 127px) {
- .buttons {
-    margin: 0 auto;
-    position: relative;
-    bottom: -2em; 
-  }
-#newquote {
-    display: inline-block;
-    postion: relative;
-    width: 7.65em;
-    left: -0.8em;
-  }
-  a#tweet {
-    display: inline-block;
-    width: 7.65em;
-    margin-bottom: -8em;
-    left: -0.8em;
-  } 
-} 
-@media (max-width: 120px) {
- .buttons {
-    margin: 0 auto;
-    position: relative;
-    bottom: -2em; 
-  }
-#newquote {
-    display: inline-block;
-    postion: relative;
-    width: 7.65em;
-    left: -1.1em;
-  }
-  a#tweet {
-    display: inline-block;
-    width: 7.65em;
-    margin-bottom: -8em;
-    left: -1.1em;
-  } 
-} 
-@media (max-width: 113px) {
- .buttons {
-    margin: 0 auto;
-    position: relative;
-    bottom: -2em; 
-  }
-#newquote {
-    display: inline-block;
-    postion: relative;
-    width: 7.65em;
-    left: -1.4em;
-  }
-  a#tweet {
-    display: inline-block;
-    width: 7.65em;
-    margin-bottom: -8em;
-    left: -1.4em;
-  } 
-} 
-header {
-  position: relative; 
-  top: 0em;
-  width: 100%;
-  text-align: center;
-} 
-header h1 {
-  color: #00FF00;
-} 
 header p {
-  color: #00FF00;
+  margin-bottom: 5em;
 }
- section {
-  position: relative;
-  width: 100%;
+section {
   text-align: center;
-  bottom: -7em; 
-  margin-top: -3em;
 }
 #tweet {
-  position: relative;
-  left: 10em;
-  bottom: 0em;
+  margin-right: -15em;
+  margin-bottom: 5em;
 }
 #newquote {
-  position: relative;
-  right:  10em;
-  bottom: 0em;
+  margin-left: -5em;
+  margin-bottom: 5em;
 }
 footer {
-position: relative;
-text-align: center;
-width: 100%;
-bottom: -15em;
+  text-align: center;
 } 
 footer a {
   color: #00FF00;
-  font-size: 1em;
-  font-weight: bold;
 }
-footer a:hover {
+footer a:hover, footer a:visited {
   color: #00FF00;
   text-decoration: none;
 }
-footer p {
-  color: #00FF00;
-  font-size: 1em;
-  font-weight: bold;
-  }
 .buttons a {
   background-color: #FFF;
   color: #00FF00;
@@ -229,34 +44,9 @@ footer p {
 .buttons button:hover {
   color: #00FF00;
 }
-body {
- background-image: url("http://i1172.photobucket.com/albums/r576/SW1992/07-0120COPY_zps1ueifhng.jpg");
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover; 
- background-position: center center;
- background-repeat: no-repeat;
- background-attachment: fixed;
- font-family: sans-serif;
-}
 h1, p {
   color: #00FF00;
-  font-size: 1em; 
-  font-weight: bold;
 }
-a:visited {
-  color: #00FF00;
-}
-#newquote:active {
-  color: #00FF00;
-}
-#newquote:visited {
-  color: #00FF00;
-}
-#tweet:active {
-  color: #00FF00;
-}
-#tweet:visited {
+#newquote:active, #tweet:active {
   color: #00FF00;
 }
